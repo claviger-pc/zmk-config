@@ -38,20 +38,10 @@
 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
- 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 3
+ 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 2
          				&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
 			>;
 			sensor-bindings = <&inc_dec_kp DN UP>;
-		};
-		paging {
-			bindings = <
-				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
- 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 3
-         				&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
-			>;
-			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 		};
 	};
 };
