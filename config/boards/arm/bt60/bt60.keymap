@@ -43,7 +43,7 @@
 			>;
 			sensor-bindings = <&inc_dec_kp DN UP>;
 		};
-		lower2 {
+		paging {
 			bindings = <
 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
