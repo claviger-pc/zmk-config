@@ -38,10 +38,20 @@
 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
- 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 2
+ 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 3
          				&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
 			>;
 			sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
+		};
+		lower2 {
+			bindings = <
+				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 3
+         				&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
+			>;
+			sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
 		};
 	};
 };
