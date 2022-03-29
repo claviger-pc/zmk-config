@@ -17,12 +17,12 @@
         };
 	combo_up {
             timeout-ms = <50>;
-            key-positions = <61 62>;
+            key-positions = <60 61>;
             bindings = <&kp UP_ARROW>;
         };	
 	combo_down {
             timeout-ms = <50>;
-            key-positions = <62 63>;
+            key-positions = <61 62>;
             bindings = <&kp DOWN_ARROW>;
         };
     };
