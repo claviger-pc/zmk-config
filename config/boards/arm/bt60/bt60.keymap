@@ -15,6 +15,16 @@
             key-positions = <12 13>;
             bindings = <&kp DELETE>;
         };
+	combo_up {
+            timeout-ms = <50>;
+            key-positions = <61 62>;
+            bindings = <&kp UP_ARROW>;
+        };	
+	combo_down {
+            timeout-ms = <50>;
+            key-positions = <62 63>;
+            bindings = <&kp DOWN_ARROW>;
+        };
     };
 };
 
