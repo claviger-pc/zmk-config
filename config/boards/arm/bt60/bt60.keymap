@@ -34,7 +34,7 @@
 	combo_jk {
             timeout-ms = <50>;
             key-positions = <35 36>;
-            bindings = <&kp DOWN_ARROW>;
+            bindings = <&kp RIGHT_ARROW>;
         };
     };
 };
