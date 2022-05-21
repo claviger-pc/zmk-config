@@ -89,6 +89,7 @@
          				&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
 			>;
 			sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+		};
 		lower3 {
 			bindings = <
 				&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
