@@ -92,7 +92,7 @@
                                 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &to 3
                                         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
+                        sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
                 };
                 lower2 {
                         bindings = <
@@ -102,7 +102,7 @@
                                 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &tog 3
                                         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+                        sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
                 };
                 lower3 {
                         bindings = <
