@@ -16,6 +16,11 @@
             key-positions = <12 13>;
             bindings = <&kp DELETE>;
         };
+        combo_up {
+            timeout-ms = <50>;
+            key-positions = <61 62>;
+            bindings = <&kp UP>;
+        };
 //        combo_jk {
 //            timeout-ms = <30>;
 //            key-positions = <35 36>;
