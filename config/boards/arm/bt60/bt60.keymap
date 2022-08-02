@@ -125,8 +125,8 @@
                 };
                 lower3 {
                         bindings = <
-                                &trans  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6        &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12  &kp DEL
-                                &trans  &trans  &trans  &dm1 RECORD &dm1 PLAY  &kp LG(LS(GRAVE))    &trans  &kp HOME  &kp UP  &kp END  &trans  &trans  &trans  &trans
+                                &kp LC(GRAVE)  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6        &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12  &kp DEL
+                                &kp LA(TAB)  &trans  &trans  &dm1 RECORD &dm1 PLAY  &kp LG(LS(GRAVE))    &trans  &kp HOME  &kp UP  &kp END  &trans  &trans  &trans  &trans
                                 &trans  &kp LGUI &kp LALT &kp LSHIFT &kp LCTRL &trans            &trans  &kp LEFT &kp DOWN &kp RIGHT  &trans  &trans  &trans
                                 &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &kp PG_UP  &kp PG_DN  &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
