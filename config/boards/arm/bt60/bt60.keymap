@@ -131,7 +131,7 @@
                                 &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &kp PG_UP  &kp PG_DN  &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+                        sensor-bindings = <&inc_dec_kp LA(LS(TAB)) LA(TAB)>;
                 };
         };
 };
