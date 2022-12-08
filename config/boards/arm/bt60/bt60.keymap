@@ -94,7 +94,7 @@
                                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH    &kp RSHFT  &to 2 
                                 &kp LCTRL &kp LGUI &kp LALT            &gqt 4 SPACE                         &kp RALT &mo 1 &kp LEFT &kp DOWN &kp RIGHT
                         >;
-                        sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB) >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP >;
                 };
                 raise {
                         bindings = <
@@ -124,14 +124,14 @@
                                 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &tog 3
                                         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+                        sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB) >;
                 };
                 lower3 {
                         bindings = <
                                 &kp LC(GRAVE)  &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6        &kp F7 &kp  F8   &kp  F9 &kp  F10  &kp F11 &kp F12  &kp DEL
-                                &kp LA(TAB)  &trans   &trans  &trans &trans  &kp LG(LS(GRAVE))    &trans  &kp HOME  &kp UP  &kp END  &trans  &trans  &trans  &trans
+                                &kp LA(TAB)  &trans   &trans  &trans &trans  &kp LG(LS(GRAVE))    &kp LC(Y)  &kp HOME  &kp UP  &kp END  &trans  &trans  &trans  &trans
                                 &caps_word  &kp LGUI &kp LALT &kp LSHIFT &kp LCTRL &trans            &trans  &kp LEFT &kp DOWN &kp RIGHT  &trans  &trans  &trans
-                                &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &kp PG_UP  &kp PG_DN  &trans  &trans  &trans  &trans  &trans
+                                &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans            &kp PG_UP  &kp PG_DN  &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
                         >;
                         sensor-bindings = <&inc_dec_kp LG(TAB) LA(TAB)>;
