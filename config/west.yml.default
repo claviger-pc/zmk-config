@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: claviger-pc
-      url-base: https://github.com/claviger-pc
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: claviger-pc
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
