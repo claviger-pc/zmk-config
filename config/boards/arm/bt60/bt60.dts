@@ -89,9 +89,9 @@ left_encoder: encoder_left {
 		};
 	};
 
-	vbatt {
+	vbatt: vbatt {
 		compatible = "zmk,battery-voltage-divider";
-		label = "BATTERY";
+		label = "VBATT";
 		io-channels = <&adc 2>;
 		output-ohms = <2000000>;
 		full-ohms = <(2000000 + 806000)>;
