@@ -115,7 +115,7 @@
  &out OUT_TOG        &trans        &kp UP        &trans      &trans       &trans  &trans    &trans  &kp INS   &trans  &kp PSCRN   &kp SLCK  &kp PAUSE_BREAK   &reset
        &trans      &kp LEFT      &kp DOWN     &kp RIGHT      &trans       &trans  &trans    &trans   &trans   &trans   &kp HOME  &kp PG_UP      &bootloader
    &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP    &kp C_MUTE  &kp C_PREV   &kp C_NEXT  &trans    &trans  &kp F23  &kp F24    &kp END  &kp PG_DN       &kp C_MUTE
-                 &bt BT_PRV    &bt BT_NXT  &bt BT_SEL 0   &kp SPACE  &kp K_CMENU  &trans  &kp HOME   &trans  &kp END
+                 &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2   &kp SPACE  &kp K_CMENU  &trans  &kp HOME   &trans  &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
