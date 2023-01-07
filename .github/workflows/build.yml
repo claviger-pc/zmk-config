@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
 #      image: zmkfirmware/zmk-build-arm:stable
-      image: petejohanson/zmk/.github/workflows/build-user-config.yml@build/test-zmk-docker-3.2-toolchain
+      image: petejohanson/zmk/build:test-zmk-docker-3.2-toolchain
     name: Build
     steps:
       - name: Checkout
