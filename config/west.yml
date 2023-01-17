@@ -1,13 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: nickconway
-      url-base: https://github.com/nickconway
+    - name: claviger-pc
+      url-base: https://github.com/claviger-pc
   projects:
     - name: zmk
-      remote: nickconway
-      revision: dynamic-macro
+      remote: claviger-pc
+      revision: main
       import: app/west.yml
   self:
     path: config
