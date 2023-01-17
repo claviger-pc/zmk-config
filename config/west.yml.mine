@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: claviger-pc
+      url-base: https://github.com/claviger-pc
+  projects:
+    - name: zmk
+      remote: claviger-pc
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
